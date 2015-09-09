@@ -1,0 +1,19 @@
+{
+  "name": "lexemail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "email-templates": "^2.0.1",
+    "jade": "^1.11.0",
+    "node-sass": "^3.3.2",
+    "nodemailer": "^1.4.0",
+    "nodemailer-mailgun-transport": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
