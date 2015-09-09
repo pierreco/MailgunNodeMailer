@@ -20,7 +20,7 @@ $ node demo/test.js
 ```javascript
 var Sender = require('../sender');
 
-var commandeInfo = {
+var billingInfo = {
   receiverEmail: 'test@yopmail.com',
   senderEmail : 'support@mycompany.com',
   subject : 'Billing e.g. invoices and receipts',
@@ -44,12 +44,17 @@ var commandeInfo = {
   }
 }
 
-Sender.sendEmail('billing', commandeInfo);
+Sender.sendEmail('billing', billingInfo);
 ```
 
 
-####Library
+####Sources
+[Mailgun.com](https://mailgun.com/)
+
 [Node Email Templates](https://github.com/niftylettuce/node-email-templates)
+
 [Transactional Email Templates](https://github.com/mailgun/transactional-email-templates/)
+
 [Nodemailer](https://github.com/andris9/Nodemailer/)
+
 [Nodemailer Mailgun Transport](https://github.com/orliesaurus/nodemailer-mailgun-transport)

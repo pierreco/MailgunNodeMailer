@@ -1,6 +1,6 @@
 var Sender = require('../sender');
 
-var commandeInfo = {
+var billingInfo = {
   receiverEmail: 'test@yopmail.com',
   senderEmail : 'support@mycompany.com',
   subject : 'Billing e.g. invoices and receipts',
@@ -24,4 +24,4 @@ var commandeInfo = {
   }
 }
 
-Sender.sendEmail('billing', commandeInfo);
+Sender.sendEmail('billing', billingInfo);
